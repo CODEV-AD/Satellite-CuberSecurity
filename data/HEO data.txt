@@ -1,0 +1,24 @@
+CREATE TABLE HigherEarthOrbitSatellites (
+    SatelliteName VARCHAR(255),
+    ServicesProvided VARCHAR(255),
+    CyberAttackTypes VARCHAR(255),
+    OwnerCountry VARCHAR(255)
+);
+
+INSERT INTO HigherEarthOrbitSatellites (SatelliteName, ServicesProvided, CyberAttackTypes, OwnerCountry)
+VALUES
+    ('Hubble Space Telescope 2', 'Astronomical observations', 'Data theft, sabotage', 'USA'),
+    ('Mars Reconnaissance Orbiter', 'Planetary exploration', 'Hacking, data loss', 'USA'),
+    ('Galileo', 'Global Navigation Satellite System', 'Signal jamming, spoofing', 'European Union'),
+    ('Voyager 1', 'Interstellar Space Exploration', 'Data interception, signal jamming', 'USA'),
+    ('International Space Station (ISS 2)', 'Space research, international cooperation', 'Malware, data interception', 'International'),
+    ('GPS III satellites', 'Global Positioning System', 'DDoS attacks, data breaches', 'USA'),
+    ('NOAA GOES Satellites', 'Weather monitoring', 'Data manipulation, cyber espionage', 'USA'),
+    ('Juno', 'Jupiter exploration', 'Hacking, data manipulation', 'USA'),
+    ('Artemis', 'Lunar exploration', 'Espionage, cyber warfare', 'USA'),
+    ('Terra', 'Earth observation', 'Data theft, sabotage', 'USA'),
+    ('SES', 'Communication', 'DDoS attacks, data breaches', 'Luxembourg'),
+    ('Skynet', 'Military Communication', 'Signal jamming, spoofing', 'United Kingdom'),
+    ('Nilesat', 'Satellite Television', 'Data interception, signal jamming', 'Egypt'),
+    ('Eutelsat Hot Bird', 'Communication', 'Hacking, data loss', 'France'),
+    ('Star One', 'Communication', 'DDoS attacks, data breaches', 'Brazil');

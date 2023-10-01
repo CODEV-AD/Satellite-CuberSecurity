@@ -1,0 +1,26 @@
+-- Create the table for lower Earth orbit satellites
+CREATE TABLE LowerEarthOrbitSatellites (
+    SatelliteName VARCHAR(255),
+    ServicesProvided VARCHAR(255),
+    CyberAttackTypes VARCHAR(255),
+    OwnerCountry VARCHAR(255)
+);
+
+-- Insert 15 entries into the table
+INSERT INTO LowerEarthOrbitSatellites (SatelliteName, ServicesProvided, CyberAttackTypes, OwnerCountry)
+VALUES
+    ('ISS (International Space Station)', 'Space research, international cooperation', 'Malware, data interception', 'International'),
+    ('Starlink', 'Internet connectivity', 'DDoS attacks, data breaches', 'USA'),
+    ('OneWeb', 'Internet connectivity', 'Hacking, data manipulation', 'USA'),
+    ('Tiangong', 'Space station', 'Espionage, cyber warfare', 'China'),
+    ('Hubble Space Telescope', 'Astronomical observations', 'Data theft, sabotage', 'USA'),
+    ('GPS satellites', 'Global Positioning System', 'Signal jamming, spoofing', 'USA'),
+    ('NOAA Weather Satellites', 'Weather monitoring', 'Data interception, signal jamming', 'USA'),
+    ('Dragonfly (NASA drone)', 'Planetary exploration', 'Hacking, data loss', 'USA'),
+    ('Sentinel-1', 'Earth observation', 'Data manipulation, cyber espionage', 'European Union'),
+    ('Amos', 'Communication', 'DDoS attacks, data breaches', 'Israel'),
+    ('Cartosat', 'Earth observation', 'Data interception, signal jamming', 'India'),
+    ('RadarSat', 'Earth observation', 'Data manipulation, cyber espionage', 'Canada'),
+    ('Aqua', 'Earth observation', 'Data theft, sabotage', 'USA'),
+    ('AlSat-1', 'Earth observation', 'Hacking, data loss', 'Algeria'),
+    ('Eutelsat', 'Communication', 'DDoS attacks, data breaches', 'France');

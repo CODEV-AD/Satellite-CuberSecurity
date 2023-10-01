@@ -1,0 +1,37 @@
+CREATE TABLE LEO_Satellites (
+    SatelliteID INT PRIMARY KEY,
+    SatelliteName VARCHAR(255) NOT NULL,
+    ServicesProvided VARCHAR(255),
+    OwnerCountry VARCHAR(255) NOT NULL
+);
+
+
+
+-- Sample Data for LEO Satellites
+INSERT INTO LEO_Satellites (SatelliteID, SatelliteName, ServicesProvided, OwnerCountry)
+VALUES
+    (1, 'Starlink-1', 'Internet Broadband', 'USA'),
+    (2, 'OneWeb-1', 'Internet Connectivity', 'UK'),
+    (3, 'Iridium-1', 'Voice and Data Communication', 'USA'),
+    (4, 'Globalstar-1', 'Satellite Phone Service', 'USA'),
+    (5, 'TerraSAR-X', 'Earth Observation', 'Germany'),
+    (6, 'ICEYE-X1', 'Synthetic Aperture Radar (SAR) Imaging', 'Finland'),
+    (7, 'SkySat-1', 'Earth Observation and Imaging', 'USA'),
+    (8, 'Dove-1', 'Earth Imaging for Agriculture', 'USA'),
+    (9, 'Lemur-1', 'Weather Data Collection', 'USA'),
+    (10, 'NOAA-N Prime', 'Weather Monitoring', 'USA'),
+    (11, 'COSMIC-2', 'Atmospheric Soundings', 'USA'),
+    (12, 'Kepler-1', 'IoT Connectivity', 'USA'),
+    (13, 'Spire-1', 'AIS and Weather Data', 'USA'),
+    (14, 'Cartosat-2', 'Earth Imaging', 'India'),
+    (15, 'NanosatC-BR1', 'Amateur Radio Communications', 'Brazil'),
+    (16, 'Hawkeye 360-1', 'RF Geolocation Services', 'USA'),
+    (17, 'Hubble Space Telescope', 'Astronomical Observations', 'USA'),
+    (18, 'Landsat 8', 'Earth Remote Sensing', 'USA'),
+    (19, 'SO-50', 'Amateur Radio Communications', 'Saudi Arabia'),
+    (20, 'ISS (International Space Station)', 'Space Research Laboratory', 'Multiple'),
+    (21, 'XMM-Newton', 'X-ray Astronomy', 'Europe'),
+    (22, 'Formosat-5', 'Earth Observation', 'Taiwan'),
+    (23, 'ZACube-2', 'Remote Sensing', 'South Africa'),
+    (24, 'Yaogan-30', 'Earth Observation', 'China'),
+    (25, 'Amos-17', 'Satellite Internet Services', 'Israel');
