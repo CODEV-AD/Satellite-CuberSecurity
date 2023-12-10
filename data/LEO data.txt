@@ -1,4 +1,4 @@
--- Create the table for lower Earth orbit satellites
+
 CREATE TABLE LowerEarthOrbitSatellites (
     SatelliteName VARCHAR(255),
     ServicesProvided VARCHAR(255),
@@ -6,7 +6,7 @@ CREATE TABLE LowerEarthOrbitSatellites (
     OwnerCountry VARCHAR(255)
 );
 
--- Insert 15 entries into the table
+
 INSERT INTO LowerEarthOrbitSatellites (SatelliteName, ServicesProvided, CyberAttackTypes, OwnerCountry)
 VALUES
     ('ISS (International Space Station)', 'Space research, international cooperation', 'Malware, data interception', 'International'),

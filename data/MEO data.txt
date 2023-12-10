@@ -1,4 +1,4 @@
--- Create a table for middle Earth orbit satellites
+
 CREATE TABLE MiddleEarthOrbitSatellites (
     SatelliteName VARCHAR(255),
     ServicesProvided VARCHAR(255),
@@ -6,7 +6,7 @@ CREATE TABLE MiddleEarthOrbitSatellites (
     OwnerCountry VARCHAR(255)
 );
 
--- Insert 15 entries into the table
+
 INSERT INTO MiddleEarthOrbitSatellites (SatelliteName, ServicesProvided, CyberAttackTypes, OwnerCountry)
 VALUES
     ('Galileo 1', 'Navigation and positioning', 'Jamming, spoofing', 'European Union'),
